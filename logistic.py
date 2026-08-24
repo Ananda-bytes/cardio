@@ -13,7 +13,7 @@ features, scaler, model, Y_pred, cr, cm = cardio()
 st.header('Cardiovascular Disease Predictiton')
 st.subheader('Using Logistic Regression')
 
-API_URL = 'http://127.0.0.1:8000/predict-logistic-cardio'
+API_URL = 'https://cardio-jygb.onrender.com/predict-logistic-cardio'
 # age = st.text_input('Age', placeholder='Enter your age')
 
 st.sidebar.header(
